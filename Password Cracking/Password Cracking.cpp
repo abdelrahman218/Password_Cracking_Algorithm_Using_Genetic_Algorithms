@@ -9,7 +9,7 @@ const double PERCENTAGE_OF_PASSWORDS_TO_BE_MERGED=0.05;
 
 //Global Variable That will be needed during the whole program
 #define NO_OF_PASSWORDS_PER_ITERARTION 200
-const string POSSIBLE_CHARS = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ 1234567890_-@";
+const string POSSIBLE_CHARS = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ 1234567890_-@~'!#$%^&*+={}[]:|;\".<>,?/";
 string correctPassword;
 
 //Function That generates a random number within a given range
